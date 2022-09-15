@@ -1,0 +1,26 @@
+{
+  "name": "app-users",
+  "version": "1.0.0",
+  "description": "App Users é uma simples Api para gerenciamento de usuários.",
+  "main": "src/index.js",
+  "scripts": {
+    "database": "npx sequelize db:drop && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed:all",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.4",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "nodemon": "^2.0.19"
+  }
+}

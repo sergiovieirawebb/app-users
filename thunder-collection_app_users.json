@@ -1,0 +1,109 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "app_users",
+  "dateExported": "2022-09-15T20:35:35.263Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "d2ce0b66-707f-4277-a131-12ee0baa24fc",
+      "colId": "54e9f286-3680-4742-b2a9-4e95167c5a2c",
+      "containerId": "",
+      "name": "all users",
+      "url": "http://localhost:3001/users",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2022-09-13T17:34:12.650Z",
+      "modified": "2022-09-14T00:08:59.878Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "310bfe00-f026-49ec-a7fd-342dc40f59af",
+      "colId": "54e9f286-3680-4742-b2a9-4e95167c5a2c",
+      "containerId": "",
+      "name": "user by id",
+      "url": "http://localhost:3001/users/2",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2022-09-15T20:00:04.516Z",
+      "modified": "2022-09-15T20:35:22.301Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "7fdf76ee-e123-4b97-809f-73e5e4ddea84",
+      "colId": "54e9f286-3680-4742-b2a9-4e95167c5a2c",
+      "containerId": "",
+      "name": "user by id and email",
+      "url": "http://localhost:3001/users/search/1?email=leo@test.com",
+      "method": "GET",
+      "sortNum": 40000,
+      "created": "2022-09-15T20:01:30.180Z",
+      "modified": "2022-09-15T20:04:15.132Z",
+      "headers": [],
+      "params": [
+        {
+          "name": "email",
+          "value": "leo@test.com",
+          "isPath": false
+        }
+      ],
+      "tests": []
+    },
+    {
+      "_id": "58dcbdf5-9183-4cb9-ac25-d39c14d65b0a",
+      "colId": "54e9f286-3680-4742-b2a9-4e95167c5a2c",
+      "containerId": "",
+      "name": "add user",
+      "url": "http://localhost:3001/users",
+      "method": "POST",
+      "sortNum": 45000,
+      "created": "2022-09-15T20:04:36.463Z",
+      "modified": "2022-09-15T20:34:47.582Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"fullName\": \"Ronaldo Silva\",\n  \"email\": \"ronaldo5@test.com\",\n  \"phoneNum\": \"11942079043\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "c1731c0c-f5c9-42c6-b26b-042d5bae4b7d",
+      "colId": "54e9f286-3680-4742-b2a9-4e95167c5a2c",
+      "containerId": "",
+      "name": "update user",
+      "url": "http://localhost:3001/users/1000",
+      "method": "PUT",
+      "sortNum": 60000,
+      "created": "2022-09-15T20:28:04.028Z",
+      "modified": "2022-09-15T20:30:23.354Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"fullName\": \"updateUser\",\n  \"email\": \"updateEmail@test.com\",\n  \"phoneNum\": \"119039777790\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "87b4fea5-60f1-4b57-9b82-4e97b227ec52",
+      "colId": "54e9f286-3680-4742-b2a9-4e95167c5a2c",
+      "containerId": "",
+      "name": "delete user",
+      "url": "http://localhost:3001/users/15",
+      "method": "DELETE",
+      "sortNum": 70000,
+      "created": "2022-09-15T20:29:53.105Z",
+      "modified": "2022-09-15T20:35:11.869Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    }
+  ]
+}
