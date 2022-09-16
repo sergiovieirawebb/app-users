@@ -15,7 +15,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-App Users é uma simples Api para gerenciamento de usuários.
+App Users é uma aplicação para gerenciamento de usuários.
 
 ## Como executar
 
