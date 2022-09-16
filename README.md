@@ -51,8 +51,8 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/users`
   }
 ]
 ```
-#### Busca usuário pelo id `GET /users/id`
 
+#### Busca usuário pelo id `GET /users/id`
 
 > corpo da resposta
 ```json
