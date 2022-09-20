@@ -22,7 +22,7 @@ App Users é uma aplicação para gerenciamento de usuários.
 - Faça o download do [Docker](https://www.docker.com/) para rodar o banco de dados
 - Clone o repositório `git clone git@github.com:sergiovieirawebb/app-users.git`
 - Rode o `npm install` para baixar as dependências
-- Rode o `docker-composer up -d` para iniciar o banco de dados pelo docker
+- Rode o `docker-compose up -d` para iniciar o banco de dados pelo docker
 - Rode o `npm run database` para criar as tabelas do banco de dados
 - Rode o `npm run dev` para iniciar a aplicação
 
