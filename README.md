@@ -35,7 +35,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/users`
 
 #### Busca todos usuários `GET /users`
 
-> corpo da resposta
+> body da resposta
 ```json
 [
   {
@@ -55,7 +55,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/users`
 
 #### Busca usuário pelo id `GET /users/id`
 
-> corpo da resposta
+> body da resposta
 ```json
 {
   "id": 1,
@@ -66,7 +66,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/users`
 ```
 #### Busca usuário pelo id e email `GET /users/search/id?email=emailDoUsuario`
 
-> corpo da resposta
+> body da resposta
 ```json
 {
   "id": 1,
@@ -78,7 +78,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/users`
 
 #### Adiciona um novo usuário `POST /users` 
 
-> corpo do envio
+> body do envio
 ```json
 {
   "fullName": "NewUser",
@@ -87,7 +87,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/users`
 }
 
 ```
-> corpo da resposta
+> body da resposta
 ```json
 {
   "id": 10,
@@ -99,7 +99,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/users`
 
 #### Atualiza dados do usuário `PUT /users/id` 
 
-> corpo do envio
+> body do envio
 ```json
 {
   "fullName": "updateUser",
@@ -109,7 +109,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/users`
 
 ```
 
-> corpo da resposta
+> body da resposta
 ```json
 {
   "message": "Usuário atualizado com sucesso!"
@@ -118,7 +118,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/users`
 
 #### Remove um usuário `DELETE users/id`
 
-> corpo da resposta
+> body da resposta
 ```json
 {
   "message": "Usuário removido com sucesso!"
