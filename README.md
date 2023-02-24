@@ -15,7 +15,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-API de uma aplicação para gerenciamento de usuários.
+API de uma aplicação para gerenciar usuários.
 
 ## Como executar
 
