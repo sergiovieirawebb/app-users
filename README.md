@@ -6,7 +6,7 @@
 
 ## Projeto
 
-Sérgio desenvolveu uma API para uma aplicação que gerencia usuários. A API possui as seguintes tecnologias:
+Sérgio desenvolveu uma API para uma aplicação que gerencia usuários, utilizando as seguintes tecnologias:
 
 - [Docker](https://www.docker.com/)
 - [NodeJs](https://nodejs.org/)
