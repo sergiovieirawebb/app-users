@@ -4,18 +4,14 @@
   <img alt="Preview" src="./.github/preview.png">
 </p>
 
-## Tecnologias
+## Projeto
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Sérgio desenvolveu uma API para uma aplicação que gerencia usuários. A API possui as seguintes tecnologias:
 
 - [Docker](https://www.docker.com/)
 - [NodeJs](https://nodejs.org/)
 - [Express](https://expressjs.com/)
 - [Sequelize](https://sequelize.org/)
-
-## Projeto
-
-API de uma aplicação que gerencia usuários.
 
 ## Como executar
 
