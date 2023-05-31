@@ -6,7 +6,7 @@
 
 ## Projeto
 
-Sérgio desenvolveu uma API para uma aplicação que gerencia usuários, utilizando as seguintes tecnologias:
+Como parte do processo de aprendizagem em desenvolvimento back-end, Sérgio concluiu este projeto pessoal no qual desenvolveu esta API para uma aplicação de gerenciamento de usuários, utilizando as seguintes tecnologias:
 
 - [Docker](https://www.docker.com/)
 - [NodeJs](https://nodejs.org/)
