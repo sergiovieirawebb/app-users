@@ -6,7 +6,7 @@
 
 ## Projeto
 
-Como parte do processo de aprendizagem em desenvolvimento back-end, conclui este projeto pessoal no qual desenvolvi esta API para uma aplicação de gerenciamento de usuários, utilizando as seguintes tecnologias:
+Como parte do processo de aprendizagem em desenvolvimento backend, conclui este projeto pessoal no qual desenvolvi esta REST API para uma aplicação de gerenciamento de usuários, utilizando as seguintes tecnologias:
 
 - [Docker](https://www.docker.com/)
 - [NodeJs](https://nodejs.org/)
